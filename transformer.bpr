@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="transformer.exe"/>
+    <OBJFILES value="transformer.obj main.obj systemset.obj dm.obj sys.obj selbasic.obj 
+      search.obj rpOut.obj"/>
+    <RESFILES value="transformer.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) main.dfm systemset.dfm dm.dfm selbasic.dfm search.dfm rpOut.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="vclbde50.lib Qrpt50.lib dclusr50.lib vclado50.lib Vcldb50.lib Vclx50.lib 
+      Vcl50.lib"/>
+    <SPARELIBS value="Vcl50.lib Vclx50.lib Vcldb50.lib vclado50.lib dclusr50.lib Qrpt50.lib 
+      vclbde50.lib"/>
+    <PACKAGES value="Vcl50.bpi Vcldb50.bpi Vclx50.bpi dclusr50.bpi vclado50.bpi Qrpt50.bpi 
+      Vclmid50.bpi Inet50.bpi Inetdb50.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="tlink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="transformer.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Program Files\Borland\CBuilder5\Projects\&quot;;$(BCB)\Imports;d:\Borland\CBuilder5\Projects\;c:\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="&quot;C:\Program Files\Borland\CBuilder5\Projects\&quot;;$(BCB)\Imports;d:\Borland\CBuilder5\Projects\;c:\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;C:\Program Files\Borland\CBuilder5\Projects\.&quot; -I$(BCB)\Imports 
+      -Id:\Borland\CBuilder5\Projects\. -Ic:\Borland\CBuilder5\Projects\. 
+      -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl50.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-l&quot;H:\供电局\供电021208\transfermer\&quot; -D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=2052
+CodePage=936
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+$(BCB)\Bin\dcl31w50.bpl=Delphi 1.0 Compatibility Components
+$(BCB)\Bin\bcbsmp50.bpl=Borland C++ Sample Components
+C:\WINNT\System32\ibsmp50.bpl=Borland C++ InterBase Alerter Component
+$(BCB)\Bin\dcltee50.bpl=TeeChart 5.0 Components
+$(BCB)\Bin\dcldss50.bpl=Borland Decision Cube Components
+$(BCB)\Bin\applet50.bpl=Borland Control Panel Applet Package
+$(BCB)\Bin\dcltqr50.bpl=TeeChart 5.0 for QuickReport Components Design Package
+$(BCB)\Bin\DCLIB50.bpl=InterBase Data Access Components
+$(BCB)\Bin\dclsmpedit50.bpl=Borland Editor Script Enhancements
+$(BCB)\Bin\dclmid50.bpl=Borland MIDAS Components
+$(BCB)\Bin\dclnet50.bpl=Borland Internet Components
+$(BCB)\Bin\DCLNMF50.bpl=NetMasters Fastnet Tools
+$(BCB)\Bin\dclwbm50.bpl=Borland InternetExpress Components
+$(BCB)\Bin\bcbie50.bpl=Borland C++Builder Internet Explorer 5 Components Package
+$(BCB)\Bin\dclocx50.bpl=Borland Sample Imported ActiveX Controls
+$(BCB)\Bin\dclite50.bpl=Borland Integrated Translation Environment
+$(BCB)\Bin\mfcwizard.bpl=MFC Wizard
+$(BCB)\Bin\bcb2kaxserver50.bpl=Borland C++Builder COM Server Components Sample Package
+
+[HistoryLists\hlIncludePath]
+Count=6
+Item0=C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Imports;d:\Borland\CBuilder5\Projects\;c:\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item1=C:\Program Files\Borland\CBuilder5\Projects;$(BCB)\Imports;d:\Borland\CBuilder5\Projects\;c:\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item2=$(BCB)\Imports;d:\Borland\CBuilder5\Projects\;c:\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item3=d:\Borland\CBuilder5\Projects\;c:\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item4=d:\Borland\CBuilder5\Projects;c:\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+Item5=c:\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=6
+Item0=C:\Program Files\Borland\CBuilder5\Projects\;$(BCB)\Imports;d:\Borland\CBuilder5\Projects\;c:\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item1=C:\Program Files\Borland\CBuilder5\Projects;$(BCB)\Imports;d:\Borland\CBuilder5\Projects\;c:\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item2=$(BCB)\Imports;d:\Borland\CBuilder5\Projects\;c:\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item3=d:\Borland\CBuilder5\Projects\;c:\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item4=d:\Borland\CBuilder5\Projects;c:\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item5=c:\Borland\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=3
+Item0=run
+Item1=D:\021606\供电局\transfermer\run\
+Item2=run\
+
+[HistoryLists\hlFinalOutputDir]
+Count=3
+Item0=run\
+Item1=D:\021606\供电局\transfermer\run\
+Item2=H:\供电局\transfermer\run
+
+[HistoryLists\hIBPIOutputDir]
+Count=7
+Item0=H:\供电局\供电021208\transfermer
+Item1=H:\供电局\transfermer\
+Item2=H:\供电局\transfermer
+Item3=E:\供电021208\transfermer\
+Item4=E:\供电021208\transfermer\run\
+Item5=run\
+Item6=D:\021606\供电局\transfermer\run\
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
